@@ -1,4 +1,4 @@
-var readvalue = require("readline-sync");
+var readvalue = require("../node_modules/readline-sync");
 
 var num1 = readvalue.question("Enter two numbers");
 var num2 = readvalue.question();
