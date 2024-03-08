@@ -1,4 +1,4 @@
-var read = require('readline-sync'); // import the readline-sync lib
+var read = require('../node_modules/readline-sync'); // import the readline-sync lib
 
 var value = read.question("Enter the number");
 
